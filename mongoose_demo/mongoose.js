@@ -1,7 +1,7 @@
 let mongoose = require("mongoose");
 let connection = "mongodb://127.0.0.1:27017/mongoosedb";
-require("./models/Owner");
-require("./models/Cat");
+require("../models/Owner");
+require("../models/Cat");
 
 let Cat = mongoose.model("Cat");
 let Owner = mongoose.model("Owner");
